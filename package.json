@@ -1,0 +1,32 @@
+{
+  "name": "cybbamobile",
+  "displayName": "cybbaMobile",
+  "version": "1.0.0",
+  "description": "Mobile Cybba Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Cybba",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-ios": "^5.0.1",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
